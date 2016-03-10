@@ -1,0 +1,25 @@
+//
+//  CQBantang.pch
+//  BanTanText
+//
+//  Created by chenq@kensence.com on 16/3/8.
+//  Copyright © 2016年 chenq@kensence.com. All rights reserved.
+//
+
+#ifndef CQBantang_pch
+#define CQBantang_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//#import "HomeController.h"
+//#import "HomeModel.h"
+//#import "Masonry.h"
+//#import "CollectionViewCell.h"
+//#import "HomeController.h"
+#define HomeUrl(page)  [NSString stringWithFormat:@"http://182.92.113.38/topic/list?app_installtime=1456134149.404547&app_versions=1.4&channel_name=appStore&client_id=bt_app_ipad&client_secret=9700d70626f8bc6ea6bba2570aa658b7&os_versions=9.2.1&page=%ld&pagesize=20&screensize=2048&track_device_info=iPad&track_deviceid=48E9F334-1F9D-4F2B-91D1-B663CBEAF7D4&v=1",page]
+
+#endif /* CQBantang_pch */
+
